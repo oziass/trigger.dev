@@ -10,6 +10,7 @@ export default defineConfig({
     // Pure unit tests for runEngine concerns colocate next to their source file.
     include: [
       "test/**/*.test.ts",
+      "app/v3/eventRepository/**/*.test.ts",
       "app/v3/environmentVariables/**/*.test.ts",
       "app/v3/runOpsMigration/**/*.test.ts",
       "app/v3/runStore.server.test.ts",
